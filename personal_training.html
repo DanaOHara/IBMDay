@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Entrenamiento Personal</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 0px;
+
+      height: 100%;
+    }
+
+    body {
+      background-image: url("images/background2.jpg");
+      background-repeat: no-repeat;
+      background-position: top;
+      background-attachment: fixed;
+    }
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 0px;
+      }
+      .row.content {height:auto;}
+
+      .jumbotron {
+        width:class="col-sm-8";
+        padding-right: 0px;
+        padding-left: 0px
+
+      }
+    }
+
+    .col-sm-8 {
+      background-color: rgba(51,51,51,0.85);
+      color: white;
+    }
+
+    .navbar-brand {
+    color: rgb(255,255,255);
+    }
+
+    .navbar-default .navbar-brand:focus, .navbar-brand:hover {
+    color: rgb(255,255,255);
+    background-color: transparent
+    }
+    a:link {
+    color: white;
+    }
+
+    /* visited link */
+    a:visited {
+        color: white;
+    }
+
+    /* mouse over link */
+    a:hover {
+        color: white;
+        text-decoration: none;
+    }
+
+    /* selected link */
+    a:active {
+        color: white;
+    }
+
+    .inline-c {
+      display: table-cell;
+      width: 200px;
+      height: 200px;
+      vertical-align: center;
+      padding-right: 30px;
+    }
+
+    .inline-c img {
+      float: left;
+      min-width: 40%;
+      width: 110%;
+      height: auto;
+    }
+
+    .inline-cd {
+      display: inline-block;
+      text-align: left;
+      max-width: 65%;
+    }
+    .inline-cdc {
+      align: center;
+      display: flex;
+      justify-content: center;
+      max-width: 100%;
+    }
+    .jumbotron p{
+      font-size: 15px;
+    }
+
+
+    .title-ibm{
+
+          display: inline-block;
+          padding-left: 10px;
+    }
+
+
+    .logo-ibm{
+          display: table-cell;
+          padding-top: 13px;
+
+    }
+    .logo-ibm img {
+
+          float: left;
+
+    }
+    .title2{
+          display: flex;
+    }
+
+
+
+    #Logo
+    {
+          max-height: 52px;
+    }
+    #titulo
+    {
+
+          font-size: 42px;
+          font-weight: bolder;
+          font-family: "Exo 2", sans-serif;
+          color: white;/*rgb(133,133,133);/*rgb(2,129,148); /*rgb(2,94,117);*/
+
+  }
+
+
+
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <p class="navbar-brand">Entrenamiento Personal</p>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">Return</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid text-center" style="font-size: 10;">
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+
+    </div>
+    <div class="col-sm-8 text-left">
+
+
+
+      
+
+
+      <div class="title2">
+
+      <div class="title-ibm"><h3 id="titulo">ENTRENAMIENTO <span style="color: rgb(76,153,223);"> PERSONAL</span></h3></div>
+      </div>
+
+
+
+      <div class="jumbotron" style="background-color: rgba(153,153,153,0.3); ">
+        <div style="text-align: center;">
+        <a href="https://developer.ibm.com/courses/all/bluemix-essentials/"><h3>IBM Cloud Essentials</h3></a>
+      </div>
+        <div class="inline-cdc">
+        <div class="inline-c">
+          <a href="https://developer.ibm.com/courses/all/bluemix-essentials/"><img src="images/bluemix_essential.png"></a>
+        </div>
+
+        <div class="inline-cd">
+
+        <p align="justify">IBM Cloud es una plataforma en la nube de estándares abiertos para crear, ejecutar y gestionar aplicaciones.
+          Con IBM Cloud, los desarrolladores pueden centrarse en crear experiencias de usuario excelentes con opciones de
+          computación flexibles, la opción de herramientas DevOps y un potente conjunto de API y servicios de IBM y de terceros.
+          Este curso te ayuda a comprender los fundamentos de cloud-computing, IBM Cloud, y  las aplicaciones Cloud Foundry.</p>
+      </div>
+    </div>
+
+    </div>
+
+    <div class="jumbotron" style="background-color: rgba(153,153,153,0.3); ">
+      <div style="text-align: center;">
+      <a href="https://developer.ibm.com/courses/all/chatbots-watson-lets-talk-national-parks/"><h3>Watson & Chatbots</h3></a>
+    </div>
+      <div class="inline-cdc">
+      <div class="inline-c">
+        <a href="https://developer.ibm.com/courses/all/chatbots-watson-lets-talk-national-parks/"><img src="images/watson.png"></a>
+      </div>
+
+      <div class="inline-cd">
+
+      <p align="justify">En este curso, crea tu propio chatbot utilizando el servicio de conversación de IBM Watson.
+        Tu chatbot simulará una conversación en torno a algunos de los parques nacionales más interesantes de EE.UU.,
+        Como Arches y Yellowstone. Aprenderas a entrenar a su bot, crear su diálogo y escribir código para integrarse con API externas.
+      Con el servicio  Conversation de IBM Watson ™, puedes crear una aplicación que entienda las entradas de lenguaje natural y
+      use el aprendizaje automático para responder a los usuarios de una manera que simule una conversación entre humanos.</p>
+    </div>
+  </div>
+
+  </div>
+
+        <div class="jumbotron" style="background-color: rgba(153,153,153,0.3); ">
+          <div style="text-align: center;">
+          <a href="https://developer.ibm.com/courses/all/cloud-application-developer-certification-preparation-v2/"><h3>Cloud Application</h3></a>
+        </div>
+          <div class="inline-cdc">
+          <div class="inline-c">
+            <a href="https://developer.ibm.com/courses/all/cloud-application-developer-certification-preparation-v2/"><img src="images/cloud.png"></a>
+          </div>
+
+          <div class="inline-cd">
+
+          <p align="justify">Este curso proporciona una revisión de conceptos clave para ayudarlo a prepararse
+            para el de desarrollo de aplicaciones IBM Cloud Platform. Está estructurado como
+            una serie de videoconferencias acompañadas de demostraciones, laboratorios prácticos y cuestionarios.
+            Completar este curso le dará experiencia con IBM Bluemix y le mostrará cómo crear aplicaciones para
+            la nube que sean escalables, confiables y seguras.</p>
+        </div>
+      </div>
+
+      </div>
+
+      <div class="jumbotron" style="background-color: rgba(153,153,153,0.3); ">
+        <div style="text-align: center;">
+        <a href="https://developer.ibm.com/courses/all/blockchain-essentials/"><h3>Blockchain Essentials</h3></a>
+      </div>
+        <div class="inline-cdc">
+        <div class="inline-c">
+          <a href="https://developer.ibm.com/courses/all/blockchain-essentials/"><img src="images/blockchain.png"></a>
+        </div>
+
+        <div class="inline-cd">
+
+        <p align="justify">Blockchain es una tecnología emergente que puede mejorar radicalmente la banca,
+          la cadena de suministro y otras redes de transacciones y puede crear nuevas oportunidades
+          para la innovación. Las empresas contienen muchos ejemplos de redes de personas y organizaciones que
+          colaboran para crear valor y riqueza. Estas redes trabajan juntas en mercados que intercambian activos en forma de
+          bienes y servicios entre los participantes.
+          Este curso te ayudará a aprender acerca de blockchain para empresas y explorar casos de uso clave
+          que demuestran cómo la tecnología agrega valor.</p>
+      </div>
+    </div>
+
+    </div>
+
+
+
+    </div>
+    <div class="col-sm-2 sidenav">
+
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+</html>
